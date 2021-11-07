@@ -16,7 +16,7 @@
     <nav class="navbar navbar-expand-sm navbar-light sticky-top">
         <div class="container">
             <!-- Logo -->
-            <a href="#" class="navbar-brand"><img src="img/logo.png" alt="logo" height="30" width="30" /></a>
+            <a href="#" class="navbar-brand"></a>
             <!-- Toggle Button -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar">
                 <span class="navbar-toggler-icon"></span>
@@ -40,17 +40,37 @@
     </nav>
 
     <!-- main content -->
-    <div class="container">
-        <h1>Hey I'm Jacob</h1>
-        <img src="img/profile.jpeg" class="img-fluid" alt="Profile image">
-        <p>Web Developer, Musician, Cook, ESL teacher and Traveller</p>
-        <p>I am currently learning HTML, CSS, Javascript, and Bootstrap</p>
-    </div>
+    <div class="container-fluid welcome">
+        <div class="row">
+            <div class="col text-center p-2">
+                <h1>Hey I'm Jacob</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col p-3">
+                <img src="img/profile.jpeg" class=" d-flex img-fluid mx-auto" alt="Profile image">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col p-5">
+                <div class="text-dark text-center">
+                    <p>Web Developer, Musician, Cook, ESL teacher and Traveller</p>
+                    <p>I am currently learning HTML, CSS, Javascript, and Bootstrap.</p>
+                </div>
+            </div>
 
-    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
-    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        </div>
+        <!-- projects -->
+        <div class="container">
+
+        </div>
+
+
+
+        <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 
 </html>
