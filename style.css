@@ -37,6 +37,9 @@ img{
 .card{
     margin-top: 1rem;
 }
+.card-header{
+    text-align: center;
+}
 
 .socials{
     background-color: #FD795B; 
