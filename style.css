@@ -1,3 +1,7 @@
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
+
 .navbar{ background:#FDEDD0}
 
 
@@ -8,6 +12,13 @@
 
 .welcome{
     background-image:  linear-gradient(to bottom right,#7F7FD5,#86A8E7, #91EAE4);;
+}
+
+h1{
+    font-size: 3rem;
+}
+.welcome p{
+    font-size: 1.25rem;
 }
 
 
@@ -25,4 +36,16 @@ img{
 
 .card{
     margin-top: 1rem;
+}
+
+.socials{
+    background-color: #FD795B; 
+}
+
+.fa{
+    color: #FDEDD0;
+}
+
+.fa:hover{
+    color:#fad899;
 }
