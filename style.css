@@ -11,10 +11,18 @@
 }
 
 
-h1{
+h1,h2{
     color: #FDEDD0;
 }
 img{
     border-radius: 50%;
     width: 200px;
+}
+
+.projects{
+    background-color: #FF634D;
+}
+
+.card{
+    margin-top: 1rem;
 }
